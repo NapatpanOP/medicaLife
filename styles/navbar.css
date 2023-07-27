@@ -1,4 +1,4 @@
-nav {
+header, nav {
   font-family: 'Inter', sans-serif;
   background-color: #fefefe;
   display: grid;
@@ -6,7 +6,7 @@ nav {
   align-items: center;
   gap: 2rem;
 
-  .nav-top {
+  .content {
     max-width: 1170px;
     height: 100px;
     display: flex;
@@ -18,7 +18,7 @@ nav {
       width: 200px;    
     }
   
-    .nav-top-right {
+    .content-right {
       display: flex;
       align-items: center;
       gap: 2rem;
