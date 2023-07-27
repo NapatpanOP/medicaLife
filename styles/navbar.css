@@ -68,17 +68,21 @@ nav {
   
   .nav-content {
     max-width: 1170px;
-    height: 100px;
+    height: 70px;
     display: flex;
     align-items: center;
-    gap: 12rem;
+    gap: 13rem;
     
     .box-menu {
       position: relative;
       display: flex;
-      gap: 2.8rem;
+      gap: 3rem;
       align-items: center;
     }
+  }
+  
+  .media img {
+    width: 35px;
   }
 }
 
