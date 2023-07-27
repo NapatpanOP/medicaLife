@@ -1,25 +1,60 @@
 nav {
-  width: 100%;
-  background-color: rgb(252, 252, 252);
-  padding: 0 2rem;
-  
+  font-family: 'Inter', sans-serif;
+  background-color: #fefefe;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
   .nav-top {
+    max-width: 1170px;
+    height: 100px;
     display: flex;
-    margin: 0 auto;
-    gap: 5rem;
-    padding: 1.5rem 0;
+    align-items: center;
+    gap: 12rem;
+    border-bottom: 2px solid #dddd;
+
+    .logo img {
+      width: 200px;    
+    }
+  
+    .nav-top-right {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .contact-box {
+        display: flex;
+        gap: 12px;
+        height: 50px;
+        align-items: center;
+        border-right: 2px solid #dddd;
+        line-height: 1.5rem;
+        padding-right: 2rem;
+
+        .icon img {
+          width: 30px;
+        }
+
+        .title-contact {
+          font-weight: bold;
+          color: #000E44;
+        }
+
+        .descroption-contact {
+          color: #848E9F;
+        }
+      }
+
+      .make-appoinment {
+        text-decoration: none;
+        color: #fff;
+        background-color: #000E44;
+        padding: 15px 25px;
+        border-radius: 20px;
+        font-size: 13px;
+      }
+    }
+    
   }
-}
-
-
-.logo img {
-  width: 200px;
-}
-
-.contact-box {
-  display: flex;
-}
-
-.contact-box-detail {
-  width: 120px;
 }
