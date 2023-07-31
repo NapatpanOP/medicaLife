@@ -1,0 +1,27 @@
+main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-page {
+  background-image: url(https://kit.baliniz.com/hymedical/wp-content/uploads/sites/10/2021/05/medical-doctors-at-the-conference-E49QVN6.jpg);
+  background-position: 100% 24%;
+  background-repeat: no-repeat;
+  background-size: 94% 100%;
+
+  .background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(120deg, #000E44 40%, #000E4400 36%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+}
+
+.landing-page, .background-overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
