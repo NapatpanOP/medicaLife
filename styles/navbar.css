@@ -62,7 +62,7 @@ nav {
   height: 70px;
   display: flex;
   align-items: center;
-  gap: 13rem;
+  gap: 14rem;
 
   .box-menu {
     position: relative;
@@ -71,7 +71,7 @@ nav {
     align-items: center;
   }
   
-  .media img {
+  .contact-icon img {
     width: 35px;
   }
 }
