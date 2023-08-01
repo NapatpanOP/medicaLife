@@ -25,7 +25,7 @@ header {
   .content-right {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 
     .contact-box {
       display: flex;
@@ -54,7 +54,7 @@ header {
       text-decoration: none;
       color: #fff;
       background-color: #000E44;
-      padding: 10px 9px;
+      padding: 10px 15px;
       border-radius: 17px;
       font-size: 12px;
     }
