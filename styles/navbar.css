@@ -67,7 +67,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14rem;
+  gap: 7rem;
   z-index: 1;
 
   .box-menu {
@@ -101,6 +101,7 @@ ul li a {
 
 ul li a:hover {
   color: #00E5CC;
+  transition: all .4s ease;
 }
 
 ul li ul li {
