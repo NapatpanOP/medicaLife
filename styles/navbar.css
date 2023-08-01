@@ -1,0 +1,122 @@
+.head-content {
+  font-family: 'Inter', sans-serif;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+  border-bottom: 2px solid #dddd;
+  position: relative;
+  
+  .logo img {
+    width: 200px;    
+  }
+
+  .content-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .contact-box {
+      display: flex;
+      gap: 12px;
+      height: 50px;
+      align-items: center;
+      border-right: 2px solid #dddd;
+      line-height: 1.5rem;
+      padding-right: 2rem;
+
+      .icon img {
+        width: 30px;
+      }
+
+      .title-contact {
+        font-weight: bold;
+        color: #000E44;
+      }
+
+      .descroption-contact {
+        color: #848E9F;
+      }
+    }
+
+    .make-appoinment {
+      text-decoration: none;
+      color: #fff;
+      background-color: #000E44;
+      padding: 10px 15px;
+      border-radius: 17px;
+      font-size: 12px;
+    }
+  }
+}
+
+nav {
+  width: 1000px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  z-index: 1;
+
+  .box-menu {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .contact-icon img {
+    width: 35px;
+  }
+
+  .down-arrow {
+    width: 12px;
+  }
+}
+
+li {
+  height: 40px;
+  line-height: 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000E44;
+  font-weight: 600;
+  display: block;
+  align-items: center;
+}
+
+ul li a:hover {
+  color: #00E5CC;
+  transition: all .4s ease;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul {
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  padding: 10px;
+  border-style: solid;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+}
+
+ul li:hover ul li {
+  display: block;
+}

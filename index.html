@@ -1,13 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>MedicaLife</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div class="head-content">
+      <header>
+        <div class="logo">
+          <img src="./assets/logo-medicalife.png" alt="logo" />
+        </div>
+
+        <div class="content-right">
+          <div class="contact-box">
+            <div class="icon">
+              <img src="./assets/icon/email.png" alt="icon-email" />
+            </div>
+            <div>
+              <h3 class="title-contact">Mail Us</h3>
+              <h4 class="descroption-contact">Info@domain.com</h4>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <div class="icon">
+              <img src="./assets/icon/phone-call.png" alt="icon-phone" />
+            </div>
+            <div>
+              <h3 class="title-contact">Call Us</h3>
+              <h4 class="descroption-contact">(+021) 2336 278</h4>
+            </div>
+          </div>
+
+          <div>
+            <a href="#" class="make-appoinment">Make Appoinment</a>
+          </div>
+        </div>
+      </header>
+
+      <nav>
+        <ul class="box-menu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">APPOINTMENT</a></li>
+          <li>
+            <a href="#">PAGES <img class="down-arrow" src="./assets/icon/down-arrow.png" alt="down-arrow"></a>
+            <ul>
+              <li><a href="#">OUR DOCTOR</a></li>
+              <li><a href="#">HELP & FAQ</a></li>
+              <li><a href="#">404 PAGE</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">BLOG <img class="down-arrow" src="./assets/icon/down-arrow.png" alt="down-arrow"></a>
+            <ul>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">SINGLE BLOG</a></li>
+            </ul>
+          </li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+
+        <div class="contact-icon">
+          <a class="hv-fb" href="#"><img src="./assets/icon/facebook.png" alt="icon-fb"></a>
+          <a class="hv-tw" href="#"><img src="./assets/icon/twitter.png" alt="icon-tw"></a>
+          <a class="hv-yt" href="#"><img src="./assets/icon/youtube.png" alt="icon-yt"></a>
+          <a class="hv-ig" href="#"><img src="./assets/icon/instagram.png" alt="icon-ig"></a>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <section class="landing-page">
+        <div class="background-overlay"></div>
+        <div class="box-content">
+          <div class="best-medical">
+            <h1>Best Medical & 
+              <span>Healthcare</span>
+              Serice For Your Family
+            </h1>
+            <div class="best-medical-descroption">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <a class="bt-contact" href="#">Contact Us</a>
+          </div>
+          <div class="audio-player">
+            <a href="#"><img src="./assets/icon/play-button.png" alt="icon-ply"></a>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

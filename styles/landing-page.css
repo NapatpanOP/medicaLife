@@ -1,0 +1,90 @@
+main {
+  position: relative;
+  width: 100%;
+  height: 600px;
+
+  .landing-page {
+    background-image: url(https://kit.baliniz.com/hymedical/wp-content/uploads/sites/10/2021/05/medical-doctors-at-the-conference-E49QVN6.jpg);
+    background-position: 100% 24%;
+    background-repeat: no-repeat;
+    background-size: 94% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .background-overlay {
+      background-color: transparent;
+      background-image: linear-gradient(120deg, #000E44 40%, #000E4400 36%);
+      opacity: 1;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+
+    .box-content {
+      width: 1000px;
+      position: relative;
+
+      .best-medical {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 3rem;
+        font-family: 'Inter', sans-serif;
+        color: #000E44;
+      }
+
+      .best-medical h1 {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 3.3rem;
+        margin-bottom: 1rem;
+      }
+
+      .best-medical-descroption {
+        line-height: 1.5rem;
+        font-size: 14px;
+        width: 450px;
+        color: #7b7b7b;
+        margin-bottom: 2.5rem;
+      }
+
+      .bt-contact {
+        text-decoration: none;
+        color: #fff;
+        background-color: #000E44;
+        padding: 18px 40px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      .audio-player {
+        width: 100px;
+        height: 100px;
+        background-color: #00DBC3;
+        position: absolute;
+        bottom: -25px;
+        left: 510px;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+      }
+
+      .audio-player img {
+        width: 52px;
+      }
+    }
+    
+  }
+}
+
+.landing-page, .background-overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
