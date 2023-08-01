@@ -14,18 +14,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12rem;
+  gap: 9rem;
   border-bottom: 2px solid #dddd;
   position: relative;
   
   .logo img {
-    width: 200px;    
+    width: 200px;
   }
 
   .content-right {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 
     .contact-box {
       display: flex;
@@ -54,8 +54,8 @@ header {
       text-decoration: none;
       color: #fff;
       background-color: #000E44;
-      padding: 10px 15px;
-      border-radius: 17px;
+      padding: 13px 20px;
+      border-radius: 18px;
       font-size: 12px;
     }
   }
