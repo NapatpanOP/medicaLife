@@ -73,12 +73,16 @@ nav {
   .box-menu {
     position: relative;
     display: flex;
-    gap: 2.4rem;
+    gap: 2rem;
     align-items: center;
   }
   
   .contact-icon img {
     width: 35px;
+  }
+
+  .down-arrow {
+    width: 12px;
   }
 }
 
@@ -92,6 +96,7 @@ ul li a {
   color: #000E44;
   font-weight: 600;
   display: block;
+  align-items: center;
 }
 
 ul li a:hover {
