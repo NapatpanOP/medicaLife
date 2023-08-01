@@ -32,7 +32,6 @@ main {
         padding: 3rem;
         font-family: 'Inter', sans-serif;
         color: #000E44;
-      
       }
 
       .best-medical h1 {
@@ -58,6 +57,24 @@ main {
         border-radius: 50px;
         font-size: 14px;
         font-weight: 300;
+      }
+
+      .audio-player {
+        width: 100px;
+        height: 100px;
+        background-color: #00DBC3;
+        position: absolute;
+        bottom: -25px;
+        left: 510px;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+      }
+
+      .audio-player img {
+        width: 55px;
       }
     }
     
