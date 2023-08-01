@@ -8,9 +8,10 @@
 
   .content {
     display: flex;
+    width: 1000px;
 
     .box {
-      width: 300px;
+      width: 333px;
       height: 260px;
       box-shadow: 0px 3px 30px 0px rgba(61.000000000000014, 112.99999999999996, 117, 0.14901960784313725);
       padding: 2rem;
@@ -30,7 +31,7 @@
 
       .descroption-contact {
         line-height: 1.3rem;
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 25px;
         color: #787878;
         font-weight: 300;
@@ -65,7 +66,7 @@
     }
     
     .emergency {
-      height: 280px;
+      height: 290px;
       border-radius: 0 0 10px 10px;
       background-color: #000E44;
 
