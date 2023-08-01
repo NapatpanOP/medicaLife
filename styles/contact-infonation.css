@@ -1,39 +1,94 @@
-.contact-infomation {
+#contact-infomation {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Inter', sans-serif;
 
-
-  .box {
+  .content {
     display: flex;
 
-    .doctors {
-      width: 350px;
-      height: 300px;
+    .box {
+      width: 300px;
+      height: 260px;
       box-shadow: 0px 3px 30px 0px rgba(61.000000000000014, 112.99999999999996, 117, 0.14901960784313725);
-      padding: 1rem;
+      padding: 2rem;
+
+      .icon {
+        width: 70px;
+        margin-bottom: 20px;
+      }
+
+      .topic {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .descroption-contact {
+        line-height: 1.3rem;
+        font-size: 15px;
+        margin-bottom: 25px;
+        color: #787878;
+        font-weight: 300;
+      }
+
+      .link {
+        text-decoration: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+
+        .icon-link {
+          width: 15px;
+          margin: 0 5px;
+        }
+      }
+    
+    }
+    
+    .doctors {
       border-radius: 10px 0 0 10px;
       background-color: #fff;
+    
+      .topic {
+        color: #000E44;
+      }
+
+      .link   {
+        color: #00E5CC;
+      }
     }
     
     .emergency {
-      width: 350px;
-      height: 330px;
-      box-shadow: 0px 3px 30px 0px rgba(61.000000000000014, 112.99999999999996, 117, 0.14901960784313725);
-      padding: 1rem;
+      height: 280px;
       border-radius: 0 0 10px 10px;
       background-color: #000E44;
+
+      .link {
+        background-color: #00E5CC;
+        width: fit-content;
+        padding: 12px 20px;
+        border-radius: 30px;
+      }
+
+      .icon-link {
+        margin: 0;
+      }
     }
     
     .make-an-appointment {
-      width: 350px;
-      height: 300px;
-      box-shadow: 0px 3px 30px 0px rgba(61.000000000000014, 112.99999999999996, 117, 0.14901960784313725);
-      padding: 1rem;
       border-radius: 0 10px 10px 0;
       background-color: #00E5CC;
+    
+      .descroption-contact {
+        color: #fff;
+      }
     }
+
   }
 }
