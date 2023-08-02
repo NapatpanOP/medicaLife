@@ -67,7 +67,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 9.6rem;
   z-index: 1;
 
   .box-menu {
@@ -79,6 +79,7 @@ nav {
   
   .contact-icon img {
     width: 35px;
+    margin-left: 10px;
   }
 
   .down-arrow {
