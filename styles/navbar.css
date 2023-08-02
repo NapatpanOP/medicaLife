@@ -9,12 +9,12 @@
 }
 
 header {
-  width: 1000px;
+  width: 1100px;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 9rem;
+  gap: 10rem;
   border-bottom: 2px solid #dddd;
   position: relative;
   
@@ -25,7 +25,7 @@ header {
   .content-right {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 
     .contact-box {
       display: flex;
@@ -54,26 +54,26 @@ header {
       text-decoration: none;
       color: #fff;
       background-color: #000E44;
-      padding: 13px 20px;
+      padding: 14px 20px;
       border-radius: 18px;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 }
 
 nav {
-  width: 1000px;
+  width: 1100px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7rem;
+  gap: 10rem;
   z-index: 1;
 
   .box-menu {
     position: relative;
     display: flex;
-    gap: 2rem;
+    gap: 3.3rem;
     align-items: center;
   }
   
@@ -94,7 +94,8 @@ li {
 ul li a {
   text-decoration: none;
   color: #000E44;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 14px;
   display: block;
   align-items: center;
 }
