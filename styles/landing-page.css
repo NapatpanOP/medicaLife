@@ -35,6 +35,13 @@ section {
         z-index: 0;
       }
 
+      .bg-best-medical {
+        background-image: url(https://kit.baliniz.com/hymedical/wp-content/uploads/sites/10/2021/07/bg-health.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
       .best-medical h1 {
         font-size: 48px;
         font-weight: bold;
