@@ -14,8 +14,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
-  border-bottom: 2px solid #dddd;
+  gap: 15.3rem;
+  border-bottom: 1px solid #dddd;
   position: relative;
   
   .logo img {
@@ -25,14 +25,14 @@ header {
   .content-right {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
 
     .contact-box {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       height: 50px;
       align-items: center;
-      border-right: 2px solid #dddd;
+      border-right: 1px solid #dddd;
       line-height: 1.5rem;
       padding-right: 2rem;
 
@@ -47,6 +47,7 @@ header {
 
       .descroption-contact {
         color: #848E9F;
+        font-weight: 300;
       }
     }
 
@@ -54,8 +55,8 @@ header {
       text-decoration: none;
       color: #fff;
       background-color: #000E44;
-      padding: 14px 20px;
-      border-radius: 18px;
+      padding: 15px 30px;
+      border-radius: 25px;
       font-size: 14px;
     }
   }
@@ -63,11 +64,11 @@ header {
 
 nav {
   width: 1100px;
-  height: 70px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 9.6rem;
   z-index: 1;
 
   .box-menu {
@@ -78,7 +79,8 @@ nav {
   }
   
   .contact-icon img {
-    width: 35px;
+    width: 32px;
+    margin-left: 10px;
   }
 
   .down-arrow {
