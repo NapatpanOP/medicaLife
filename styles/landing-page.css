@@ -29,7 +29,7 @@ section {
         height: 300px;
         background-color: #fff;
         border-radius: 10px;
-        padding: 3rem;
+        padding: 4rem;
         font-family: 'Inter', sans-serif;
         color: #000E44;
         z-index: 0;
@@ -50,7 +50,7 @@ section {
         position: absolute;
         display: flex;
         z-index: -1;
-        bottom: 245px;
+        bottom: 257px;
         margin: 0 auto;
         
       }
@@ -78,17 +78,17 @@ section {
         height: 100px;
         background-color: #00DBC3;
         position: absolute;
-        bottom: -25px;
-        left: 510px;
-        border-radius: 8px;
-        padding: 10px;
+        bottom: -50px;
+        left: 550px;
+        border-radius: 6px;
+        padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;        
       }
 
       .audio-player img {
-        width: 52px;
+        width: 55px;
       }
     }
     }    
