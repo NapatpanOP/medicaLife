@@ -1,24 +1,59 @@
-.about-medicalife-content {
+#about-medicalife {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
 
-  .topic {
-    color: aqua;
-    font-size: 20px;
-    margin-bottom: 1rem;
+  .content {
+    display: flex;
+    width: 1100px;
+
+    .picture-medicalife {
+      width: 550px;
+      padding: 1rem;
+
+      .img-medical-team img {
+        width: 85%;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 39px 39px 0px 5px rgba(0, 229, 204.00000000000006, 0.17);
+      }
+
+      .img-doctor img {
+        width: 52%;
+        border-style: solid;
+        border-width: 15px 15px 0px 0px;
+        border-color: #FFFFFF;
+        border-radius: 0px 5px 0px 5px;
+        margin-top: -175px;
+      }
+    }
+
+    .descroption {
+      display: flex;
+      flex-direction: column;
+      width: 550px;
+      padding: 1rem;
+
+      .topic {
+        color: aqua;
+        font-size: 20px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .descroption h2 {
+      font-size: 30px;
+      line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+      
+    .descroption p {
+      font-size: 20px;
+      line-height: 1rem;
+    }
+
   }
-
-}
-
-.about-medicalife-content h2 {
-  font-size: 30px;
-  line-height: 2rem;
-  margin-bottom: 1rem;
-}
-
-.about-medicalife-content p {
-  font-size: 20px;
-  line-height: 1rem;
-}
+} 
+      
