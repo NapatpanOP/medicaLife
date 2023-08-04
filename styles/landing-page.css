@@ -81,11 +81,11 @@ section {
       }
 
       .audio-player {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         background-color: #00DBC3;
         position: absolute;
-        bottom: -60px;
+        bottom: -20px;
         left: 530px;
         border-radius: 6px;
         padding: 20px;
@@ -95,7 +95,7 @@ section {
       }
 
       .audio-player img {
-        width: 55px;
+        width: 50px;
       }
     }
     }    
