@@ -47,12 +47,53 @@
         font-weight: 400;
         line-height: 1.5rem;
         margin-bottom: 4rem;
+        width: 500px;
       }
   
       .card-content {
         width: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .card {
+          background-color: #FFFFFF;
+          width: 200px;
+          padding: 28px;
+          text-align: left;
+          background-color: #FFFFFF;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #434D75;
+          border-radius: 5px;
+
+          .topic {
+            width: 170px;
+            color: #000A31;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.4rem;
+          }
+
+          .topic-color {
+            color: #FFFFFF;
+          }
+        }
+
+        .card-bg-color-blue {
+          background-color: #000A31;
+        }
+
+        .card-bg-color-green {
+          background-color: #00E5CC;
+        }
+
+        .card img {
+          width: 45px;
+          margin-bottom: 1rem;
+        }
+
       }
-  
     }
   }
 }
