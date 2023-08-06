@@ -72,7 +72,47 @@
         background-color: #fff;
         box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.1);
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        padding: 30px 30px 30px 30px;
+        padding: 35px;
+        
+
+        .form-input-box {
+          display: flex;
+          gap: 35px;
+          margin-bottom: 35px;
+
+          .form-input {
+            padding: 15px 40px;
+            font-family: 'Inter', sans-serif;
+            color: #848E9F;
+            font-size: 14px;
+            font-weight: 400;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #ededed;
+            border-radius: 5px;
+          }
+
+          .select-padding-left {
+            padding: 15px 45px;
+          }
+
+          .select-padding-right {
+            padding: 15px 55px;
+          }
+
+          .text-area-margin {
+            margin-bottom: 20px;
+          }
+        }
+
+        .bt-appoinment-form {
+          text-decoration: none;
+          color: #fff;
+          background-color: #00E5CC;
+          padding: 20px 40px;
+          font-weight: 500;
+          border-radius: 50px;
+        }
       }
     }
   }
