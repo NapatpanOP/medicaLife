@@ -1,5 +1,5 @@
 .section-height-our-blog {
-  height: 500px;
+  height: 950px;
 
   #our-blog {
     width: 100%;
@@ -12,7 +12,6 @@
     .content {
       width: 1100px;
       
-
       .descroption {
         display: flex;
         flex-direction: column;
@@ -40,6 +39,70 @@
         font-size: 16px;
         font-weight: 400;
         color: #848E9F;
+        margin-bottom: 3rem;
+      }
+
+      .card-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .card {
+          width: 345px;
+          text-align: left;
+          background-color: #FFFFFF;
+        
+          .image {
+            height: 280px;
+            position: relative;
+            margin-bottom: 1rem;
+          }
+
+          .image img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+          }
+
+          .category {
+            color: #848E9F;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+          }
+
+          .bt-read-more {
+            text-decoration: none;
+            color: #00E5CC;
+            font-size: 14px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 1rem;
+          }
+
+          .bt-read-more img {
+            width: 15px;
+          }
+        }
+
+        .card h4 {
+          color: #000E44;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 1.5rem;
+          margin-bottom: 1rem;
+        }
+
+        .card p {
+          color: #848E9F;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 1.3rem;
+          margin-bottom: 2rem;
+        }
       }
     }
   }
