@@ -4,18 +4,21 @@ footer {
   background-color: #000B29;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-family: 'Inter', sans-serif;
 
   .ft-wrapper {
+    position: relative;
     width: 1100px;
+    top: 80px;
 
     .ft-contact {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: 70px;
 
       .ft-descroption {
-        width: 340px;
+        width: 350px;
 
         .logo {
           width: 235px;
@@ -32,7 +35,7 @@ footer {
           font-size: 16px;
           font-weight: 300;
           line-height: 1.5rem;
-          margin-bottom: 3rem;
+          margin-bottom: 2.5rem;
         }
 
         .icon {
@@ -52,7 +55,7 @@ footer {
 
       .contact-details {
         color: #fff;
-        width: 310px;
+        width: 290px;
 
         .topic {
           font-size: 18px;
@@ -66,22 +69,34 @@ footer {
         }
 
         .list-contact li {
+          display: flex;
+          align-items: center;
           margin-bottom: 13px;
+
+          .icon {
+            width: 15px;
+            margin-right: 1rem;
+          }
+
+          .icon img {
+            width: 100%;
+            position: relative;
+          }
+
+          .details {
+            line-height: 20px;
+            width: 200px;
+          }
         }
 
         .list-contact li:last-child {
           margin-bottom: 0;
         }
-        
-        .list-contact img {
-          width: 15px;
-          margin-right: 1rem;
-        }
       }
 
       .other-pages {
         color: #fff;
-        width: 200px;
+        width: 180px;
 
         .topic {
           font-size: 18px;
@@ -99,6 +114,78 @@ footer {
           margin-right: 1rem;
         }
       }
+
+      .make-appointment {
+        color: #fff;
+        width: 250px;
+
+        .topic {
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        .line {
+          border-bottom: 2px solid #00E5CC;
+          width: 30%;
+          margin: 2rem 0;
+        }
+
+        .contact-number {
+          display: flex;
+          background-color: #000E45;
+          padding: 20px;
+          border-radius: 5px;
+          justify-content: center;
+          margin-bottom: 3rem;
+
+          .image {
+            width: 30px;
+            background-color: #00E5CC;
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 1rem;
+          }
+
+          .image img {
+            width: 100%;
+            position: relative;
+          }
+          
+          .call-us {
+            display: grid;
+            align-items: center;
+          }
+
+          .topic {
+            font-size: 18px;
+            font-weight: 600;
+          }
+
+          .number {
+            color: #A4AEBE;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+
+        .descroption {
+          font-size: 16px;
+          font-weight: 300;
+          color: #848E9F;
+          line-height: 1.5rem;
+        }
+      }
+    }
+
+    .credit {
+      display: flex;
+      color: #848E9F;
+      justify-content: space-between;
+      align-items: last baseline;
+      height: 40px;
+      border-top: 2px solid #232a33;
+      font-size: 14px;
+      font-weight: 400;
     }
   }
 }
