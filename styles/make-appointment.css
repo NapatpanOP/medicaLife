@@ -77,14 +77,15 @@
         
 
         .form-input-box {
-          display: flex;
-          gap: 35px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
           margin-bottom: 35px;
 
           .form-input {
-            padding: 15px 40px;
+            padding: 12px 15px;
+            width: 210px;
             font-family: 'Inter', sans-serif;
-            color: #848E9F;
+            color: #b0afaf;
             font-size: 14px;
             font-weight: 400;
             border-style: solid;
@@ -93,16 +94,23 @@
             border-radius: 5px;
           }
 
-          .select-padding-left {
-            padding: 15px 45px;
+          .select-width-left {
+            width: 240px;
+            appearance: none;
           }
 
-          .select-padding-right {
-            padding: 15px 55px;
+          .select-width-right {
+            width: 243px;
+            appearance: none;
           }
 
           .text-area-margin {
+            width: 470px;
             margin-bottom: 25px;
+          }
+
+          ::placeholder {
+            color: #b0afaf;
           }
         }
 
@@ -110,7 +118,7 @@
           text-decoration: none;
           color: #fff;
           background-color: #00E5CC;
-          padding: 20px 40px;
+          padding: 12px 15px;
           font-weight: 500;
           border-radius: 50px;
         }
