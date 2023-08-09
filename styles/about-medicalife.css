@@ -46,8 +46,8 @@
         }
         
         .services {
-          display: flex;
-          flex-wrap: wrap;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
           margin: 1.5rem 0;
           gap: 8px;
   
