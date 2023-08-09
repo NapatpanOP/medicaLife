@@ -2,15 +2,16 @@
   background-color: #ECFDFB;
   height: 1300px;
   
-  /* .background-overlay {
+  .background-overlay {
     background-image: url(https://kit.baliniz.com/hymedical/wp-content/uploads/sites/10/2021/07/bg-health.jpg);
     background-position: center center;
     background-size: auto;
     opacity: 0.3;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-  } */
+  }
 
   #medical-services {
+    position: relative;
     width: 100%;
     height: 100%;
     display: flex;
