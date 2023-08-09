@@ -13,7 +13,7 @@
         width: 1100px;
         display: flex;
   
-        .descroption {
+        .description {
           width: 550px;
           padding-right: 10px;
           display: flex;
@@ -55,14 +55,14 @@
                 padding: 0;
               }
   
-              .descroption-procedures {
+              .description-procedures {
                 display: flex;
                 flex-direction: column;
                 width: 400px;
                 margin-left: 1rem;
               }
   
-              .descroption-procedures h3 {
+              .description-procedures h3 {
                 font-size: 20px;
                 font-weight: 600;
                 color: #000E44;
@@ -82,7 +82,7 @@
           }
         }
   
-        .descroption h2 {
+        .description h2 {
           font-size: 32px;
           font-weight: 600;
           line-height: 2.3rem;
@@ -90,7 +90,7 @@
           margin-bottom: 1rem;
         }
   
-        .descroption p {
+        .description p {
           font-size: 16px;
           font-weight: 400;
           line-height: 1.4rem;

@@ -27,7 +27,7 @@
             opacity: 1;
             position: relative;
 
-            .descroption {
+            .description {
               position: absolute;
               bottom: 0;
               display: flex;
@@ -48,7 +48,7 @@
               }
             }
 
-            .descroption h3 {
+            .description h3 {
               color: #fff;
               font-size: 32px;
               font-weight: 600;
@@ -57,7 +57,7 @@
               margin-bottom: 1rem;
             }
 
-            .descroption p {
+            .description p {
               color: #fff;
               font-size: 16px;
               font-weight: 400;

@@ -33,7 +33,7 @@
         }
       }
       
-      .descroption {
+      .description {
         display: flex;
         flex-direction: column;
         width: 550px;
@@ -61,7 +61,7 @@
               margin-right: 10px;
             }
   
-            .service-descroption h3 {
+            .service-description h3 {
               font-size: 16px;
               font-weight: 600;
               color: #000E44;
@@ -80,14 +80,14 @@
         }
       }
   
-      .descroption h2 {
+      .description h2 {
         font-size: 32px;
         font-weight: 600;
         line-height: 2.5rem;
         margin-bottom: 1rem;
       }
         
-      .descroption p {
+      .description p {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5rem;
