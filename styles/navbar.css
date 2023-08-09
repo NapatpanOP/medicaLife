@@ -13,7 +13,8 @@ header {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15.3rem;
   border-bottom: 1px solid #dddd;
   position: relative;
   
@@ -66,7 +67,8 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 9.6rem;
   z-index: 1;
 
   .box-menu {
